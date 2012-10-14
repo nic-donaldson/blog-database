@@ -3,14 +3,15 @@ import sqlite3
 import markdown
 import time
 import datetime
-from addons.handling.slugify import _slugify
 
 if __name__ == "__main__":
+    from addons.handling.slugify import _slugify
+    # For slugify see http://code.activestate.com/recipes/577257-slugify-make-a-string-usable-in-a-url-or-filename/
     test = True
 else:
     test = False
 
-## Need to add error handling for queries
+# Need to add error handling for queries
 ## Need to add check for new titles in the titles file
 
 ## Quick class reference
